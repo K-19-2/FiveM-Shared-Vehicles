@@ -7,6 +7,8 @@ If you have a FiveM folder that has a bunch of different vehicle folders in it, 
 
 This will create a file named **filelist.txt**, which is basically just all of the different folder names. Copy the contents of that into the **cars.txt** file, save it, and then run the python script by right clicking in the folder that **Car.py** is located in, click **Open in Terminal**, and type ***py Car.py***. Once the script has finished with all cars or the user has typed **quit**, then the code will be saved to **output.txt**
 
+***NOTE:*** If the files ***cars.txt*** or ***output.txt*** are missing, it will not work. If you accidentally deleted one of those, just make a new text document and name it appropriately.
+
 ![Folder Example](https://i.imgur.com/SsmIsYU.png)
 
 ![Terminal Example](https://i.imgur.com/o6pm4iO.png)
