@@ -1,0 +1,36 @@
+-- example1
+
+['example1'] = {
+['name'] = 'Car Name1',
+['brand'] = 'CarBrand 1',
+['model'] = 'example1',
+['price'] = '99999', -- EDIT ME
+['category'] = 'suvs',
+['hash'] = `example1`,
+['shop'] = 'pdm',
+},
+
+-- example2
+
+['example2'] = {
+['name'] = 'Car Name2',
+['brand'] = 'CarBrand 2',
+['model'] = 'example2',
+['price'] = '99999', -- EDIT ME
+['category'] = 'boats',
+['hash'] = `example2`,
+['shop'] = 'pdm',
+},
+
+-- example3
+
+['example3'] = {
+['name'] = 'Car Name 3',
+['brand'] = 'Car Brand 3',
+['model'] = 'example3',
+['price'] = '99999', -- EDIT ME
+['category'] = 'vans',
+['hash'] = `example3`,
+['shop'] = 'pdm',
+},
+
