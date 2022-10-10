@@ -24,3 +24,5 @@ Alternatively, you can also type each spawn code in manually, such as the exampl
 If you wish to quit the program at any time, do not close the terminal window or it may not save your progress. Type **quit** in any of the prompts to quit.
 
 The price will need to be edited at a later time, and by default the shop each is set to is PDM. 
+
+**ADDED .jar file and .java source code for those who may wish to use java instead of Python.**
