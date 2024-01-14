@@ -32,14 +32,28 @@ public class VehiclesGen {
 		for (String i : carArr) {
 			System.out.println("What is the NAME of " + i + "? (\"quit\" to quit)");
 			String cName = userIn.nextLine();
+
+			if (cName.equalsIgnoreCase("QUIT")) {
+				ofile.close();
+				userIn.close();
+				System.out.println("Exiting...");
+				System.exit(0);
+			}
 			
 			System.out.println("What is the BRAND of " + i + "? (\"quit\" to quit)");
 			String cBrand = userIn.nextLine();
+
+			if (cBrand.equalsIgnoreCase("QUIT")) {
+				ofile.close();
+				userIn.close();
+				System.out.println("Exiting...");
+				System.exit(0);
+			}
 			
 			System.out.println("What is the CATEGORY of " + i + "? (\"quit\" to quit)\n(compacts, sedans, suvs, coupes, muscle, sports, super, motorcycle, offroad, industrial, utility, vans, cycles, boats, planes, service, emergency, military, commercial, trains)");
 			String cCat = userIn.nextLine();
 			
-			if (cName.equalsIgnoreCase("QUIT") || cBrand.equalsIgnoreCase("QUIT") || cCat.equalsIgnoreCase("QUIT")) {
+			if (cCat.equalsIgnoreCase("QUIT")) {
 				ofile.close();
 				userIn.close();
 				System.out.println("Exiting...");
